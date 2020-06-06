@@ -20,6 +20,9 @@ jobs:
       with:
         go-version: 1.14
 
+    - name: List
+      run: ls -lah
+
     - name: Test
       run: go test -v -coverprofile=coverage.out
     
