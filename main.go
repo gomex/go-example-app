@@ -133,7 +133,7 @@ var tmpl = template.Must(template.New("tmpl").Parse(`
 	{{if .Yes}}
 		<a href="{{.URL}}">YES!</a>
 	{{else}}
-		No. :-(
+		Why No. :-(
 	{{end}}
 	</h1>
 </center></body></html>
